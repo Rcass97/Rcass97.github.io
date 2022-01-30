@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        
+        <style>
+            body{
+                background: rgb(172,94,94);
+                background: linear-gradient(0deg, rgba(172,94,94,1) 0%, rgba(96,0,0,1) 100%);
+            }
+        </style>
+    
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Teams
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="mercedes.html">Mercedes</a>
+                <a href="redbull.html">Red Bull Racing</a>
+                <a href="ferrari.html">Ferrari</a>
+                <a href="mclaren.html">McLaren</a>
+                <a href="astonmartin.html">Aston Martin</a>
+                <a href="alphatauri.html">AlphaTauri</a>
+                <a href="alpine.html">Alpine</a>
+                <a href="alfaromeo.html">Alfa Romeo</a>
+                <a href="williams.html">Williams</a>
+                <a href="haas.html">Haas</a>
+            </div>
+            </div> 
+            <input type="text" placeholder="Search.."> 
+        </div>
+        <img class="logo" src="scuderia-ferrari-logo-800x1050.png">
+        <fieldset>
+            <legend>Charles Leclerc</legend>
+            <p class="bio">
+                <img class="driver" src="LeclercFull.png">Charles Marc Hervé Perceval Leclerc[3] (born 16 October 1997) is a Monégasque racing driver, currently racing in Formula One for Scuderia Ferrari. Leclerc won the GP3 Series championship in 2016 and the FIA Formula 2 Championship in 2017.
+            </p>
+            <p class="bio">
+                Leclerc made his Formula One debut in 2018 for Sauber, a team affiliated with Ferrari, for which he was part of the Ferrari Driver Academy. With Sauber having finished last the year before, Leclerc led the charge to improve the finishing position in the constructors' championship to eighth, being the higher-ranked of the two Sauber drivers.
+            </p>
+            <p class="bio">
+                Starting from 2019 and contracted until the end of the 2024 season, Leclerc is currently driving for Ferrari. He became the second-youngest driver to qualify on pole position in Formula One at the 2019 Bahrain Grand Prix. The 2019 season also saw Leclerc take his first career win in Belgium, followed by winning his first Italian Grand Prix as a Ferrari driver the week after. He won the Pole Trophy in the 2019 season becoming the youngest driver ever and the first non-Mercedes driver to win it since the trophy's inception in 2014.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="Santander-Logo-PNG3.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="image.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="Shell-Logo-1971-1995.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Carlos Sainz</legend>
+            <p class="bio">
+                <img class="driver" src="SainzFull.png">
+                Carlos Sainz Vázquez de Castro (born 1 September 1994), otherwise known as Carlos Sainz Jr. or simply Carlos Sainz, is a Spanish racing driver competing in Formula One for Scuderia Ferrari. He is the son of Carlos Sainz, a double World Rally Champion, and the nephew of rally driver Antonio Sainz. In 2012 Sainz raced in the British and European Formula 3 championships for Carlin. He raced for DAMS in the 2014 Formula Renault 3.5 season, winning the championship before moving to F1 with Toro Rosso.
+            </p>
+            <p class="bio">
+                Sainz moved to McLaren for the 2019 season, while at the same time ending his contract with Red Bull Racing. At the 2019 Brazilian Grand Prix Sainz took his maiden Formula One podium finish with third. Sainz added another podium by finishing second at Monza the following year before departing for Ferrari at the end of that season. Sainz scored his third and fourth podiums by finishing second at the 2021 Monaco Grand Prix and then third at the 2021 Hungarian Grand Prix, both for Scuderia Ferrari. He also came third at the 2021 Russian Grand Prix and the 2021 Abu Dhabi Grand Prix.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="Santander-Logo-PNG3.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="image.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="Shell-Logo-1971-1995.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
+    </body>
+</html>

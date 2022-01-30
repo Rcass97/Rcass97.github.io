@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <style>
+            body{
+                background: rgb(96,97,156);
+                background: linear-gradient(0deg, rgba(96,97,156,1) 0%, rgba(40,47,66,1) 100%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Teams
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="mercedes.html">Mercedes</a>
+                <a href="redbull.html">Red Bull Racing</a>
+                <a href="ferrari.html">Ferrari</a>
+                <a href="mclaren.html">McLaren</a>
+                <a href="astonmartin.html">Aston Martin</a>
+                <a href="alphatauri.html">AlphaTauri</a>
+                <a href="alpine.html">Alpine</a>
+                <a href="alfaromeo.html">Alfa Romeo</a>
+                <a href="williams.html">Williams</a>
+                <a href="haas.html">Haas</a>
+            </div>
+            </div> 
+            <input type="text" placeholder="Search.."> 
+        </div>
+        <img class="logo" src="7142789288592180760_1.png">
+        <fieldset>
+            <legend>Pierre Gasly</legend>
+            <p class="bio">
+                <img class="driver" src="GaslyFull.png">
+                Pierre Gasly (born 7 February 1996) is a French racing driver, currently competing in Formula One under the French flag, racing for Scuderia AlphaTauri. He is the 2016 GP2 Series champion, and the runner-up in the 2014 Formula Renault 3.5 Series and the 2017 Super Formula Championship. He made his Formula One debut with Toro Rosso at the 2017 Malaysian Grand Prix. He moved to Red Bull Racing in 2019, before moving back after trading with Alexander Albon from Toro Rosso between the Hungarian and Belgian rounds to partner Daniil Kvyat. Gasly took his maiden Formula One victory at the 2020 Italian Grand Prix while driving for AlphaTauri.
+            </p>
+            <p class="bio">
+                At the 2020 Italian Grand Prix, an early pit stop allowed Gasly to pass several drivers - who had to wait for the pitlane to open during a safety car procedure - and go up to a net third place. As race leader Hamilton entered the pits to serve a penalty and second-placed driver Lance Stroll lost places at the restart, Gasly inherited the lead of the race and held off the late-charging Carlos Sainz Jr. to take his first win in Formula One, becoming the 109th different race winner and the first French driver to win a Grand Prix since Olivier Panis' victory at the 1996 Monaco Grand Prix, 24 years prior.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="AlphaTauri.svg.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="ScuderiaAlphaTauriHonda.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="White-Honda-Emblem-1024x648.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Yuki Tsunoda</legend>
+            <p class="bio">
+                <img class="driver" src="TsunodaFull.png">
+                Yuki Tsunoda (Japanese: 角田 裕毅, Tsunoda Yūki; born 11 May 2000) is a Japanese racing driver who is racing for Scuderia AlphaTauri in Formula One. Supported by Honda since 2016 through the Honda Formula Dream Project, he was the 2018 Japanese F4 champion and in 2019 also received backing from Red Bull. He finished third in the 2020 Formula 2 Championship and made his Formula One debut in 2021 for AlphaTauri, a team owned by Red Bull and using Honda engines.
+            </p>
+            <p class="bio">
+                In the beginning of 2020, Honda announced that Tsunoda will join Carlin to race in the FIA Formula 2 Championship. During the 2020 season he took three wins, four pole positions, seven podiums and finished 3rd in the championship with 200 points.
+            </p>
+            <p class="bio">
+                In August 2020, Scuderia AlphaTauri Honda Formula One team principal Franz Tost announced that Tsunoda would drive for the team in the end-of-season rookie test at Abu Dhabi in December 2020. He had his first drive in a 2018-spec car at the Autodromo Internazionale Enzo e Dino Ferrari in Imola, Italy. He again tested Formula One machinery at Imola in January 2021, but this time, he drove an AlphaTauri-liveried Toro Rosso STR14, Toro Rosso's 2019 car.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="AlphaTauri.svg.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="ScuderiaAlphaTauriHonda.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="White-Honda-Emblem-1024x648.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
+    </body>
+</html>

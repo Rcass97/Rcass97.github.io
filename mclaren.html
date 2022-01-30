@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        
+        <style>
+            body{
+                background: rgb(103,64,22);
+                background: linear-gradient(0deg, rgba(103,64,22,1) 0%, rgba(255,132,0,1) 100%);
+            }
+        </style>
+    
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Teams
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="mercedes.html">Mercedes</a>
+                <a href="redbull.html">Red Bull Racing</a>
+                <a href="ferrari.html">Ferrari</a>
+                <a href="mclaren.html">McLaren</a>
+                <a href="astonmartin.html">Aston Martin</a>
+                <a href="alphatauri.html">AlphaTauri</a>
+                <a href="alpine.html">Alpine</a>
+                <a href="alfaromeo.html">Alfa Romeo</a>
+                <a href="williams.html">Williams</a>
+                <a href="haas.html">Haas</a>
+            </div>
+            </div> 
+            <input type="text" placeholder="Search.."> 
+        </div>
+        <img class="logo" src="McLaren-Logo.png">
+        <fieldset>
+            <legend>Lando Norris</legend>
+            <p class="bio">
+                <img class="driver" src="NorrisFull.png">Lando Norris (born 13 November 1999) is a British-Belgian racing driver currently competing in Formula One with McLaren, racing under the British flag. He won the MSA Formula championship in 2015, and the Toyota Racing Series, Eurocup Formula Renault 2.0 and Formula Renault 2.0 Northern European Cup in 2016. He also received the McLaren Autosport BRDC Award that year. He subsequently won the 2017 FIA Formula 3 European Championship. He was a member of the McLaren Young Driver Programme.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="HUSKI_-_Logo_2020_CMYK-2_1200x1200.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="McLaren.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="6989674660123116544_1.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Daniel Ricciardo</legend>
+            <p class="bio">
+                <img class="driver" src="RicciardoFull.png">
+                Daniel Joseph Ricciardo (born 1 July 1989) is an Italian-Australian[2] racing driver who is currently competing in Formula One, under the Australian flag, for McLaren. He made his debut at the 2011 British Grand Prix with the HRT team as part of a deal with Red Bull Racing, for whom he was test driving under its sister team Scuderia Toro Rosso. Ricciardo's driver number is 3. He has achieved 8 Grand Prix victories in Formula One.
+            </p>
+            <p class="bio">
+                Ricciardo joined Toro Rosso in 2012 full-time after the team changed its driver lineup and drove a Ferrari-powered car for them in 2012 and 2013. In 2014, Ricciardo was promoted to Red Bull as a replacement for the retired Mark Webber alongside multiple time world champion Sebastian Vettel. In his first season with Red Bull under Renault power, Ricciardo finished third in the championship with his first three Formula One wins, in Canada, Hungary, and Belgium.
+            </p>
+            <p class="bio">
+                After two years without a victory, Ricciardo returned to the top of the podium at the 2016 Malaysian Grand Prix, eventually sealing third in the championship for the second time in three years at the 2016 Mexican Grand Prix. He has since added victories for Red Bull at the Azerbaijan Grand Prix in 2017 and the Chinese and Monaco Grands Prix in 2018. After 2018, Ricciardo signed with Renault and raced for them in the 2019 and 2020 seasons. He joined McLaren for the 2021 and 2022 Formula One seasons, alongside Lando Norris. He obtained his first race win with McLaren at the 2021 Italian Grand Prix. After the 2021 season, Ricciardo was appointed a Member of the Order of Australia in the 2022 Australia Day Honours.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="HUSKI_-_Logo_2020_CMYK-2_1200x1200.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="McLaren.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="6989674660123116544_1.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
+    </body>
+</html>

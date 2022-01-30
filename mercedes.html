@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <style>
+            body{
+                background: rgb(97,116,114);
+                background: linear-gradient(0deg, rgba(97,116,114,1) 0%, rgba(0,187,168,1) 100%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Teams
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="mercedes.html">Mercedes</a>
+                <a href="redbull.html">Red Bull Racing</a>
+                <a href="ferrari.html">Ferrari</a>
+                <a href="mclaren.html">McLaren</a>
+                <a href="astonmartin.html">Aston Martin</a>
+                <a href="alphatauri.html">AlphaTauri</a>
+                <a href="alpine.html">Alpine</a>
+                <a href="alfaromeo.html">Alfa Romeo</a>
+                <a href="williams.html">Williams</a>
+                <a href="haas.html">Haas</a>
+            </div>
+            </div> 
+            <input type="text" placeholder="Search.."> 
+        </div>
+        <img class="logo" src="3bdf2786f9bba30a6ff1376c81b76c89.png">
+        <fieldset>
+            <legend>Lewis Hamilton</legend>
+            <p class="bio">
+                <img class="driver" src="HamiltonFull.png">Sir Lewis Carl Davidson Hamilton (born 7 January 1985) is a British racing driver. He currently competes in Formula One for Mercedes, having previously driven for McLaren from 2007 to 2012. In Formula One, Hamilton has won a joint-record seven World Drivers' Championship titles (tied with Michael Schumacher), and holds the records for the most wins (103), pole positions (103), and podium finishes (182), among others.
+            </p>
+            <p class="bio">
+                Born and raised in Stevenage, Hertfordshire, Hamilton joined the McLaren young driver programme in 1998. This led to a Formula One drive with McLaren in 2007, making Hamilton the first, and so far only, black driver to race in the series. That season, Hamilton set numerous records as he finished runner-up to Kimi Räikkönen by one point. The following season, he won his maiden title in dramatic fashion—making a crucial overtake on the last lap of the last race of the season—to become the then-youngest Formula One World Champion in history. After four more years with McLaren, Hamilton signed with Mercedes in 2013.
+            </p>
+            <p class="bio">
+                Changes to the regulations for 2014 mandating the use of turbo-hybrid engines saw the start of a highly successful period for Hamilton, during which he has won six further drivers' titles. Consecutive titles came in 2014 and 2015 during an intense rivalry with teammate Nico Rosberg. Following Rosberg's retirement, Ferrari's Sebastian Vettel became Hamilton's closest rival in two intense championship battles, in which Hamilton twice overturned mid-season point deficits to claim consecutive titles again in 2017 and 2018. His third and fourth consecutive titles followed in 2019 and 2020 to equal Schumacher's record of seven drivers' titles.
+            </p>
+            <p class="bio">
+                Hamilton has been credited with furthering Formula One's global following by appealing to a broader audience outside the sport, in part due to his high-profile lifestyle, environmental and social activism, and exploits in music and fashion. He has also become a prominent advocate in support of activism to combat racism and push for increased diversity in motorsport. Hamilton was listed in the 2020 issue of Time as one of the 100 most influential people globally, and was knighted in the 2021 New Year Honours.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="Petronas-Logo.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="Mercedes-AMGPetronas.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="AMG-logo-black-1920x1080.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>George Russell</legend>
+            <p class="bio">
+                <img class="driver" src="RussellFull.png">
+                George William Russell (born 15 February 1998) is a British racing driver currently competing in Formula One for Mercedes. He was the 2018 FIA Formula 2 Champion for ART and the 2017 GP3 Series Champion. Following his Formula 2 championship win, Russell signed for Williams in 2019, making his début at the 2019 Australian Grand Prix, alongside Robert Kubica. Russell is contracted to drive for Mercedes for the 2022 season, although he stood in for Lewis Hamilton at Mercedes at the 2020 Sakhir Grand Prix. Russell achieved his first F1 podium with Williams at the 2021 Belgian Grand Prix. He is also a part of the Mercedes Young Driver programme.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="Petronas-Logo.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="Mercedes-AMGPetronas.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="AMG-logo-black-1920x1080.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
+    </body>
+</html>
