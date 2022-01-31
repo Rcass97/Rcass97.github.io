@@ -126,3 +126,14 @@ legend{
     margin-right: 16px;
     font-size: 20px;
 }
+.videotext{
+    color:white;
+    font-family: Noto Sans, sans-serif;
+    line-height: 1.6;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    display: block;
+}
