@@ -17,7 +17,7 @@
 }
 .bio{
     color:white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Noto Sans, sans-serif;
     line-height: 1.6;
     text-indent: 50px;
     margin-right: auto;
@@ -31,7 +31,8 @@
 fieldset{
     border: 2px solid white;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: Noto Sans, sans-serif;
 }
 legend{
     color: white;
@@ -58,7 +59,7 @@ legend{
 }
 .navbar {
     overflow: hidden;
-    background-color: #5B5750;
+    background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 } 
 .navbar a {
@@ -68,6 +69,7 @@ legend{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Noto Sans, sans-serif;
 }
 .dropdown {
     overflow: hidden;
@@ -83,6 +85,7 @@ legend{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    font-family: Noto Sans, sans-serif;
 }
   .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
     background-color: #7C99B4;
@@ -121,5 +124,5 @@ legend{
     border: none;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 17px;
+    font-size: 20px;
 }

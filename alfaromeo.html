@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <style>
+            body{
+                /*background: rgb(96,97,156);
+                background: linear-gradient(0deg, rgba(96,97,156,1) 0%, rgba(40,47,66,1) 100%);*/
+                background-image: url("07_00120006_A2_6801.JPG_.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                width: fit-content;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Teams
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="mercedes.html">Mercedes</a>
+                <a href="redbull.html">Red Bull Racing</a>
+                <a href="ferrari.html">Ferrari</a>
+                <a href="mclaren.html">McLaren</a>
+                <a href="astonmartin.html">Aston Martin</a>
+                <a href="alphatauri.html">AlphaTauri</a>
+                <a href="alpine.html">Alpine</a>
+                <a href="alfaromeo.html">Alfa Romeo</a>
+                <a href="williams.html">Williams</a>
+                <a href="haas.html">Haas</a>
+            </div>
+            </div> 
+            <input type="text" placeholder="Search.."> 
+        </div>
+        <img class="logo" src="Alfa-Romeo-logo-2015-1920x1080.png">
+        <fieldset>
+            <legend>Valterri Bottas</legend>
+            <p class="bio">
+                <img class="driver" src="BottasFull.png">
+                Valtteri Viktor Bottas (born 28 August 1989) is a Finnish racing driver who competes in Formula One with the Alfa Romeo team, having previously driven for Mercedes from 2017 to 2021 and Williams from 2013 to 2016. Bottas has scored 10 race wins and 67 podiums. He contributed to five constructors championship wins for Mercedes, and has been drivers' championship runner-up twice, in 2019 and 2020.
+            </p>
+            <p class="bio">
+                Bottas is under contract to race with Alfa Romeo from 2022 on a multi-year deal. He will be partnered by Chinese rookie Guanyu Zhou.
+            </p>
+            
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="Sauber.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="AlfaRomeoRacingOrlen.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="carrera-eyewear-logo-vector.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Guanyu Zhou</legend>
+            <p class="bio">
+                <img class="driver" src="zhou.png">
+                Guanyu Zhou (born 30 May 1999) is a Chinese racing driver who is due to compete as an Alfa Romeo driver in the 2022 Formula One World Championship. He competed in the FIA Formula 2 Championship for UNI-Virtuosi Racing from 2019 to 2021, having finished 3rd in the 2021 campaign. He is a part of the Alpine Academy, and served as the test driver for the Renault F1 Team and the Alpine F1 Team in 2020 and 2021 respectively. Prior to that, he was a member of the Ferrari Driver Academy from 2014 to 2018, and served as the development driver for Formula E team DS Techeetah in 2018.
+            </p>
+            <p class="bio">
+                Zhou started his single seater career in 2015, competing in the Italian F4 Championship and ADAC Formula 4 with Prema Racing. After finding success in the Italian F4 Championship, he moved up to the European Formula 3 Championship with Motopark in 2016 and Prema Racing in 2017 and 2018.
+            </p>
+            <p class="bio">
+                Zhou signed with Alfa Romeo for the 2022 Formula One season, where he would be partnering with Valtteri Bottas, becoming China's first full-time Formula One driver. In a press release following the announcement Zhou stated that he was "well prepared for the immense challenge of Formula 1" and that him coming into the series would be "a breakthrough for Chinese motorsport history". Zhou picked the number 24 as his permanent racing number to honour his sporting hero Kobe Bryant.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="Sauber.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="AlfaRomeoRacingOrlen.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="carrera-eyewear-logo-vector.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <style>
+            body{
+                /*background: rgb(96,97,156);
+                background: linear-gradient(0deg, rgba(96,97,156,1) 0%, rgba(40,47,66,1) 100%);*/
+                background-image: url("AstonMartinCar.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                width: fit-content;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Teams
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="mercedes.html">Mercedes</a>
+                <a href="redbull.html">Red Bull Racing</a>
+                <a href="ferrari.html">Ferrari</a>
+                <a href="mclaren.html">McLaren</a>
+                <a href="astonmartin.html">Aston Martin</a>
+                <a href="alphatauri.html">AlphaTauri</a>
+                <a href="alpine.html">Alpine</a>
+                <a href="alfaromeo.html">Alfa Romeo</a>
+                <a href="williams.html">Williams</a>
+                <a href="haas.html">Haas</a>
+            </div>
+            </div> 
+            <input type="text" placeholder="Search.."> 
+        </div>
+        <img class="logo" src="Aston_Martin_logo_2.png">
+        <fieldset>
+            <legend>Sebastian Vettel</legend>
+            <p class="bio">
+                <img class="driver" src="VettelFull.png">
+                Sebastian Vettel (born 3 July 1987) is a German racing driver who competes in Formula One for Aston Martin, having previously driven for BMW Sauber, Toro Rosso, Red Bull, and Ferrari. Vettel has won four World Drivers' Championship titles, which he won consecutively from 2010 to 2013. Vettel is the youngest World Champion in Formula 1. He also has the third-most race victories (53) and podium finishes (122) and fourth-most pole positions (57).
+            </p>
+            <p class="bio">
+                Vettel started his Formula One career as a test driver for BMW Sauber in 2006, making a one-off racing appearance in 2007. Part of the Red Bull young-driver programme, Vettel appeared for Toro Rosso later that year and was kept as a full-time driver for 2008. Vettel was promoted to Red Bull in 2009. With Red Bull, Vettel won four consecutive titles from 2010 to 2013, the first of which made him the sport's youngest World Champion, setting the records for the most consecutive race wins (9) and race wins in a single season (13). Vettel signed for Ferrari for 2015 and became Mercedes' and Lewis Hamilton's closest challenger in two title fights in 2017 and 2018, although he finished both years as runner-up.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="BWT_logo_2020.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="AstonMartinCognizant.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="Cognizant-Logo.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Lance Stroll</legend>
+            <p class="bio">
+                <img class="driver" src="StrollFull.png">
+                Lance Strulovitch, (born 29 October 1998) better known as Lance Stroll, is a Canadian-Belgian racing driver competing under the Canadian flag in Formula One. He drives for Aston Martin since 2021, having previously driven for Williams and Racing Point. He was Italian F4 champion in 2014, Toyota Racing Series champion in 2015, and 2016 FIA European Formula 3 champion. He was part of the Ferrari Driver Academy from 2010 to 2015. He achieved his first podium finish, a 3rd place, at the 2017 Azerbaijan Grand Prix, becoming the second-youngest driver to finish an F1 race on the podium and the youngest (and latest as of the end of 2020) to do so during his rookie season. At the 2020 Turkish Grand Prix, Stroll took his first pole position in Formula One. Stroll also competed in endurance racing, taking part in the 24 Hours of Daytona in 2016 and 2018.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="BWT_logo_2020.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="AstonMartinCognizant.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="Cognizant-Logo.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
+    </body>
+</html>

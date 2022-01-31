@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <style>
+            body{
+                /*background: rgb(96,97,156);
+                background: linear-gradient(0deg, rgba(96,97,156,1) 0%, rgba(40,47,66,1) 100%);*/
+                background-image: url("1307025028.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                width: fit-content;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Teams
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="mercedes.html">Mercedes</a>
+                <a href="redbull.html">Red Bull Racing</a>
+                <a href="ferrari.html">Ferrari</a>
+                <a href="mclaren.html">McLaren</a>
+                <a href="astonmartin.html">Aston Martin</a>
+                <a href="alphatauri.html">AlphaTauri</a>
+                <a href="alpine.html">Alpine</a>
+                <a href="alfaromeo.html">Alfa Romeo</a>
+                <a href="williams.html">Williams</a>
+                <a href="haas.html">Haas</a>
+            </div>
+            </div> 
+            <input type="text" placeholder="Search.."> 
+        </div>
+        <img class="logo" src="Logo_Williams_F1.png">
+        <fieldset>
+            <legend>Alex Albon</legend>
+            <p class="bio">
+                <img class="driver" src="f1_2020_aa_red_lg_788888c82d9f5c876d0c7e6b569f4123.png">
+                Alexander Albon Ansusinha (born 23 March 1996) is a Thai-British Formula One driver for Williams. He most recently competed in the 2021 Deutsche Tourenwagen Masters. Albon previously raced in Formula One for Scuderia Toro Rosso and Red Bull Racing.
+            </p>
+            <p class="bio">
+                After becoming part of the Red Bull Junior Team in 2012, he was promoted to open-wheel cars for the 2012 Eurocup Formula Renault 2.0 season. He spent three years in the series and finished third in the 2014 championship. He moved to the FIA Formula 3 European Championship in 2015, where he finished seventh. He signed with ART Grand Prix to contest the 2016 GP3 Series and ended the season as runner-up behind teammate Charles Leclerc.
+            </p>
+            <p class="bio">
+                In 2017 Albon moved up to the FIA Formula 2 Championship with ART, where he finished his maiden year tenth in the standings. He then switched to the DAMS team for 2018, winning four races and finishing third in the championship. He made his Formula One début in 2019 with Toro Rosso alongside Daniil Kvyat. After twelve races, Albon was promoted to Red Bull Racing, partnering Max Verstappen and replacing Pierre Gasly. He took his first podium finish – and the first for a Thai driver – at the 2020 Tuscan Grand Prix. After two seasons in Formula One, Albon was demoted to a test and reserve driver role with Red Bull for 2021 and his seat was taken by Sergio Pérez. Albon is set to return to Formula One in 2022, driving for Williams.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="Sofina-smaller.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="WilliamsRacing.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="png-clipart-lavazza-espresso-point-coffee-lavazza-espresso-point-coffee-capsule-lavazza-coffee-blue-text.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Nicholas Latifi</legend>
+            <p class="bio">
+                <img class="driver" src="LatifiFull.png">
+                Nicholas Daniel Latifi (born 29 June 1995)[2][3] is a Canadian-Iranian racing driver currently competing in Formula One for Williams Racing under the Canadian flag. He made his Formula One debut at the 2020 Austrian Grand Prix and is the 2019 Formula 2 runner-up.
+            </p>
+            <p class="bio">
+                Latifi is due to stay with Williams for the 2022 season, alongside a new teammate, former Red Bull Racing driver Alex Albon.
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img class="bottom_photos" src="Sofina-smaller.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="WilliamsRacing.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <img class="bottom_photos" src="png-clipart-lavazza-espresso-point-coffee-lavazza-espresso-point-coffee-capsule-lavazza-coffee-blue-text.png" style="width:100%">
+                </div>
+              </div>
+        </fieldset>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
+    </body>
+</html>
