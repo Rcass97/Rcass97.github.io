@@ -1,5 +1,6 @@
 <html>
     <head>
+        <title>News</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +15,7 @@
         </style>
     </head>
     <body>
-        <img class="f1logo" src="F1-logo.png">
+        <a href="index.html"><img class="f1logo" src="F1-logo.png"></a>
         <div class="navbar">
             <a href="index.html">Home</a>
             <a href="news.html">News</a>
@@ -39,9 +40,13 @@
         </div>
         <br>
         <p class="videotext"> Check out the latest rule changes for the 2022 Formula 1 World Championship Series!</p>
-        <iframe class="closed" width="1280" height="720" src="https://www.youtube.com/embed/hk-JKrs0rrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="videocontainer">
+        <iframe class="closed responsive-iframe" width="1280" height="720" src="https://www.youtube.com/embed/hk-JKrs0rrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         <p class="videotext"> The Bottas/Russell Move Explained</p>
-        <iframe class="closed" width="1280" height="720" src="https://www.youtube.com/embed/vx_6MXt0aiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="videocontainer">
+        <iframe class="closed responsive-iframe" width="1280" height="720" src="https://www.youtube.com/embed/vx_6MXt0aiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         <script>
             /* When the user clicks on the button, 
             toggle between hiding and showing the dropdown content */
